@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Editor OpenCV 1.00</string>
+    <string name="btnEscolherImagem">Escolher Imagem</string>
+    <string name="Titulo">Editor de Imagem</string>
+    <string name="Autor">Desenvolvido por Lucas S. - 06/03/2018</string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context="com.silva.lucas.projetoopencv.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Autor"
+        android:textColor="@color/colorFont"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Escolher"
+            android:background="@color/colorButton"
+            android:textColor="@color/colorFontButton"
+            android:id="@+id/btnEscolherImagem"/>
+        <Button
+            android:layout_marginLeft="60dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Salvar"
+            android:background="@color/colorButton"
+            android:textColor="@color/colorFontButton"
+            android:id="@+id/btnSalvarImagem"/>
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/imgImagem"
+        android:background="@color/colorBackgroundImage"/>
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/face_64"
+            android:id="@+id/imgFace"/>
+        <ImageView
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/paint_64"
+            android:id="@+id/imgPintar"/>
+        <ImageView
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bright_64"
+            android:id="@+id/imgBrilho"/>
+        <ImageView
+            android:layout_marginLeft="12dp"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:src="@drawable/rgb_64"
+            android:id="@+id/imgRgb"/>
+        <ImageView
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/a_64"
+            android:id="@+id/imgTexto"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

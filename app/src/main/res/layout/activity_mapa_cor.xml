@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context="com.silva.lucas.projetoopencv.MapaCorActivity">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorFont"
+        android:text="Mapa de Cores"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorFont"
+        android:text="Filtros:"/>
+
+    <Spinner
+        android:id="@+id/spnFiltro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorButton"
+        android:spinnerMode="dialog"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorFont"
+        android:text="Pre-visualização:"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/colorBackgroundImage"
+        android:id="@+id/imgImagem"/>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAplicar"
+            android:background="@color/colorButton"
+            android:textColor="@color/colorFontButton"
+            android:text="Aplicar"/>
+        <Button
+            android:layout_marginLeft="60dp"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCancelar"
+            android:background="@color/colorButton"
+            android:textColor="@color/colorFontButton"
+            android:text="Cancelar"/>
+    </LinearLayout>
+
+
+</LinearLayout>
