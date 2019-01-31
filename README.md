@@ -30,9 +30,9 @@ This android-app project has the functions below:
 
 
 
+------
 
-
-*** Portuguese ***
+**Portuguese**
 
 Um aplicativo mobile criado para testar a biblioteca do openCV em um dispositivo android.
 
