@@ -1,7 +1,6 @@
-# Test Project w/ Android Studio and OpenCV 
-
-
 **English**
+
+# Test Project w/ Android Studio and OpenCV 
 
 A mobile app created to test the openCV library on android device.
 
@@ -33,6 +32,8 @@ This android-app project has the functions below:
 ------
 
 **Portuguese**
+
+# Projeto de teste c/ Android Studio e OpenCV 
 
 Um aplicativo mobile criado para testar a biblioteca do openCV em um dispositivo android.
 
