@@ -1,30 +1,55 @@
-# Filtro Imagem - Android Studio / OpenCV
+# Test Project w/ Android Studio and OpenCV 
 
-Projeto desenvolvido para trabalho com filtro de imagens para sistema operacional android utilizando a biblioteca OpenCV.
+> English
+
+A mobile app created to test the openCV library on android device.
+
+# Objetive
+
+A college homework, seeking to improve the android knownledge and see how openCV mobile works.
+
+# Content
+
+This android-app project has the functions below:
+
+> Face Recognition;
+
+> Turn pic into grayscale format;
+
+> Custom filters;
+
+> Change the pic brightness;
+
+> Insert text inside of image;
+
+
+# Requeriments
+
+* Android Studio 2.2.7 or higher.
+
+> Portuguese
+
+Um aplicativo mobile criado para testar a biblioteca do openCV em um dispositivo android.
 
 # Objetivo
 
-Projeto final com reconhecimento de face e filtros, utilizado na aula de 
-Disciplina de Programação para Dispositivos Moveis II - UniSALESIANO Araçatuba - SP
+Uma trabalho da faculdade, procurando melhorar o conhecimento em android e ver como o openCV em mobile funciona.
 
-Aluno: Lucas da Silva - RA:203417 
-E-mail: lucas21021996@gmail.com
+# Conteudo
 
-Professor: Anderson Kanegae
+Este projeto de android-app possui as funções abaixo:
 
-# Conteúdo
+> Reconhecimento Facial;
 
-Neste projeto contém o uso e exemplos das seguintes funções:
-* Reconhecimento facial
-* Transformação em escala cinza
-* Aplicação de filtro especial
-* Alteração de luminosidade
-* Inserção de texto na imagem
+> Tornar a imagem em formato escala-cinza;
 
-Todos estes efeitos aplicados a fotografia que pode ser escolhida diretamente da galeria de imagens do sistema operacional.
+> Filtros personalizados;
+
+> Mudar a luminosidade da imagem;
+
+> Inserir texto dentro da imagem;
 
 # Requerimentos
 
-* Android Studio 2.2.7 ou superior
-
+* Android Studio 2.2.7 ou superior.
 
